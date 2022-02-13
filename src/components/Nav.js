@@ -1,4 +1,4 @@
-import logo from './Images/Jascodes-removebg.png';
+import logo from './Images/logo.png';
 import '../styles.css';
 const Nav = () => {
   return (
@@ -6,9 +6,18 @@ const Nav = () => {
       <img className="logo" src={logo} alt="logo" />
       <nav>
         <ul>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>PROJECTS</li>
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
         </ul>
       </nav>
     </header>
