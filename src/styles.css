@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  height: 100px;
+  width: 150px;
+  right: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+ul {
+  position: relative;
+  display: flex;
+  gap: 10px 30px;
+}
+
+li {
+  margin-right: 60px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 40px;
+}

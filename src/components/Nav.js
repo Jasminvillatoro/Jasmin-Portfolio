@@ -1,13 +1,17 @@
 import logo from './Images/Jascodes-removebg.png';
+import '../styles.css';
 const Nav = () => {
   return (
-    <div>
+    <header>
+      <img className="logo" src={logo} alt="logo" />
       <nav>
-        <div>
-          <img src={logo} alt="" style={{ height: '200px' }} />
-        </div>
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>PROJECTS</li>
+        </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 
