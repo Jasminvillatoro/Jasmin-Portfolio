@@ -18,6 +18,7 @@ header {
   height: 80px;
   background-color: rgba(6, 4, 5, 0.8);
   box-shadow: 60px -16px teal;
+  position: relative;
 }
 
 .logo {
@@ -45,3 +46,36 @@ li {
   font-size: 20px;
   list-style: none;
 }
+
+/* Hero section */
+
+.hero--cnt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.hero--img-cnt > img {
+  height: 300px;
+  width: 400px;
+  opacity: 0.1;
+}
+
+.hero--text {
+  text-align: right;
+}
+
+/* About Section */
+
+.about--cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Projects Section */
+
+/* Footer Styles */
