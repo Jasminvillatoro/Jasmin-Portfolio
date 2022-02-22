@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  color: #fff;
 }
 
 body {
@@ -54,17 +55,19 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 5px;
+  margin: 10px;
 }
 
 .hero--img-cnt > img {
   height: 300px;
   width: 400px;
-  opacity: 0.1;
 }
 
 .hero--text {
-  text-align: right;
+  text-align: center;
+
+  font-weight: 200;
+  margin: 10px;
 }
 
 /* About Section */
