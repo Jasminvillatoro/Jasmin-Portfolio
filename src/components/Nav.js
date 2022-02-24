@@ -7,16 +7,16 @@ const Nav = () => {
       <nav>
         <ul>
           <li>
-            <a href="#">HOME</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">ABOUT</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a href="#">PROJECTS</a>
+            <a href="#">Projects</a>
           </li>
           <li>
-            <a href="#">CONTACT</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
