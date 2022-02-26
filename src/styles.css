@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgba(37, 34, 34, 0.9);
+  background-color: rgb(31, 30, 30);
 }
 /* Header styles */
 
@@ -17,8 +17,8 @@ header {
   position: absolute;
   width: 100%;
   height: 40px;
-  background-color: rgba(6, 4, 5, 0.6);
-  box-shadow: 60px -16px teal;
+  background-color: rgb(31, 30, 30);
+  box-shadow: 0 0 6px 0 #fff;
   position: relative;
 }
 
@@ -42,6 +42,7 @@ a {
 a:hover {
   color: #c94ab4;
   text-decoration: #fff underline;
+  transition: all 0.3s ease-in;
 }
 
 li {
@@ -56,29 +57,35 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-}
-
-.hero--img-cnt > img {
-  height: 300px;
-  width: 400px;
+  background: url('./components/Images/herobg.jpeg') no-repeat;
+  background-size: contain;
+  height: 100vh;
+  opacity: 0.8;
 }
 
 .hero--text {
+  position: absolute;
   text-align: center;
+  font-weight: 300;
+  font-size: 70px;
+  color: #fff;
+  top: 240px;
+}
 
-  font-weight: 200;
-  margin: 10px;
+.hero--text:hover {
+  color: rgb(255, 147, 147);
+  transition: all 0.3s ease-in;
+  font-weight: 500;
 }
 
 /* About Section */
 
-.about--cnt {
+/* .about--cnt {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
 /* Projects Section */
 
