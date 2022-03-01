@@ -58,8 +58,9 @@ li {
   justify-content: center;
   align-items: center;
   background: url('./components/Images/herobg.jpeg') no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100vh;
+  width: 100%;
   opacity: 0.8;
 }
 
