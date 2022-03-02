@@ -1,9 +1,13 @@
+import about from './Images/Aboutimg.jpg';
 const About = () => {
   return (
     <section className="about--cnt">
+      <div className="about-img-cnt">
+        <img className="about-photo" src={about} alt="about" />
+      </div>
       <div className="about--text">
-        <h2 className="he">h2</h2>
-        <p>
+        <h1 className="about-h1">Passionate Problem Solver</h1>
+        <p className="about-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vero.
           Facere laboriosam quia ipsa! Quod et inventore eveniet exercitationem
           ipsa ab veniam dolor doloribus incidunt! Totam iusto in soluta
