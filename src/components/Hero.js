@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="hero--cnt">
       <h1 className="hero--text">
-        Jasmin <br /> Frontend Developer
+        <span className="name">Jasmin🌷✨</span> <br /> Frontend Developer
       </h1>
     </section>
   );
