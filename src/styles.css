@@ -3,33 +3,38 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  color: #000;
+  color: #fff;
 }
 
-/* body {
+body {
   background-color: rgb(31, 30, 30);
-} */
+}
+
 /* Header styles */
 
 header {
   display: flex;
   align-items: center;
-  position: absolute;
   width: 100%;
   height: 50px;
-  background-color: rgb(162, 161, 161);
+  background-color: rgba(31, 30, 30, 0.4);
   box-shadow: 0 0 6px 0 #fff;
   position: relative;
+}
+
+nav {
+  position: fixed;
+  left: 70%;
 }
 
 .logo {
   margin-right: auto;
   padding: 10px;
+  position: fixed;
   width: 15%;
 }
 
 ul {
-  position: relative;
   display: flex;
 }
 
@@ -40,9 +45,11 @@ a {
 }
 
 a:hover {
+  position: relative;
   color: rgb(252, 162, 204);
   text-decoration: #fff underline;
   transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 
 li {
@@ -57,7 +64,6 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(252, 162, 204);
   height: 100vh;
   width: 100%;
   opacity: 0.8;
@@ -68,15 +74,19 @@ li {
   text-align: center;
   font-weight: 400;
   font-size: 70px;
-  color: #fff;
-  top: 240px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#c471ed, #ffc0cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: 2px;
-  color: #000;
 }
 
 .name {
   font-weight: 500;
-  color: #fff;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#c471ed, #ffc0cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* About Section */
 
@@ -85,7 +95,7 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #fff;
+  background-color: rgb(42, 41, 41);
   margin-top: 20px;
 }
 
@@ -93,17 +103,23 @@ li {
   height: 500px;
   width: 500px;
   border-radius: 50%;
-  margin-left: 20px;
+  padding: 40px;
+}
+
+.about--text {
+  padding: 20px;
 }
 
 .about-h1 {
+  font-size: 24px;
   vertical-align: text-top;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .about-p {
   text-align: justify;
-  margin-left: 20px;
+  margin-left: 5px;
+  word-spacing: 1px;
 }
 
 /* Projects Section */
@@ -111,12 +127,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: 100px 0 0 0;
 }
 
 .projects--container > div {
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 450px;
   background-color: rgb(255, 222, 222);
   color: #fff;
   margin: 10px;
