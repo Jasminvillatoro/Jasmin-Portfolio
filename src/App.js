@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
-import Footer from './Footer';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
