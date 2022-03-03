@@ -16,7 +16,7 @@ header {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 60px;
   background-color: rgba(31, 30, 30, 0.4);
   box-shadow: 0 0 6px 0 #fff;
   position: relative;
@@ -24,14 +24,14 @@ header {
 
 nav {
   position: fixed;
-  left: 70%;
+  left: 75%;
 }
 
 .logo {
   margin-right: auto;
   padding: 10px;
   position: fixed;
-  width: 15%;
+  width: 12%;
 }
 
 ul {
@@ -41,14 +41,14 @@ ul {
 a {
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 a:hover {
   position: relative;
   color: rgb(252, 162, 204);
   text-decoration: #fff underline;
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-out;
   cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ li {
   text-align: center;
   font-weight: 400;
   font-size: 70px;
-  font-size: 72px;
+  font-size: 80px;
   background: -webkit-linear-gradient(#c471ed, #ffc0cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,7 +83,6 @@ li {
 
 .name {
   font-weight: 500;
-  font-size: 72px;
   background: -webkit-linear-gradient(#c471ed, #ffc0cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,50 +93,120 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   background-color: rgb(42, 41, 41);
   margin-top: 20px;
+  height: 100vh;
 }
 
 .about-photo {
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
   border-radius: 50%;
   padding: 40px;
 }
 
 .about--text {
-  padding: 20px;
+  padding: 80px;
 }
 
 .about-h1 {
-  font-size: 24px;
-  vertical-align: text-top;
+  font-size: 30px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .about-p {
+  font-size: 24px;
   text-align: justify;
   margin-left: 5px;
-  word-spacing: 1px;
+  word-spacing: 2px;
 }
 
 /* Projects Section */
+
 .projects--container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin: 100px 0 0 0;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
 }
 
 .projects--container > div {
-  height: 300px;
-  width: 450px;
-  background-color: rgb(255, 222, 222);
-  color: #fff;
-  margin: 10px;
+  padding: 20px;
+}
+
+.portfolio-img {
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+
+.project-h1 {
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.project-p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px 0;
+  background: -webkit-linear-gradient(#c471ed, #ffc0cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+
+.project1 {
   text-align: center;
 }
 /* Footer Styles */
+
+footer {
+  height: 200px;
+  background-color: rgb(42, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+
+  width: 30%;
+  right: 20px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.media-icons > div {
+  display: inline;
+  margin-left: 10px;
+}
+
+.media-icons > div:hover {
+  cursor: pointer;
+}
+
+.linkedin-icon {
+  height: 25px;
+}
+
+/* Media queries */
+
+/* grid media */
+
+/* anything under 1024px */
+/* @media screen and (max-width: 1024px) {
+  .projects--container {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+} */
