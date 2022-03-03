@@ -8,17 +8,16 @@ const About = () => {
       <div className="about--text">
         <h1 className="about-h1">Passionate Problem Solver</h1>
         <p className="about-p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vero.
-          Facere laboriosam quia ipsa! Quod et inventore eveniet exercitationem
-          ipsa ab veniam dolor doloribus incidunt! Totam iusto in soluta
-          tempore. Eligendi fuga reiciendis optio, maiores molestias non
-          veritatis culpa, sed reprehenderit incidunt quidem dolor perspiciatis
-          illum cupiditate amet facere similique quo blanditiis hic recusandae
-          nobis beatae? Nemo dicta voluptates maiores. Accusantium, reiciendis.
-          Non reiciendis dolores, necessitatibus excepturi accusamus explicabo
-          ad doloribus dolorem. Et temporibus ducimus repudiandae quibusdam quis
-          labore adipisci placeat esse molestias vero laboriosam illum,
-          asperiores ad
+          Hello I'm Jasmin, <br />
+          Enthusiastic Frontend Developer who loves to create beautiful user
+          interfaces. A little bit about me. I'm 22 years old, been learning
+          frontend development for 6 months now, getting better every day. I'm a
+          dedicated individual setting goals is one of my hobbies. I think some
+          of my strongest skills are communication, problem-solving, and the
+          ability to receive feedback and improve upon it. I'm glad I made the
+          decision to learn programming; it's taught me how to be resourceful
+          and think outside the box. I've been able to accomplish many things I
+          thought were impossible.
         </p>
       </div>
     </section>
