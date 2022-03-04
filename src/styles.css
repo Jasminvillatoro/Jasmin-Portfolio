@@ -200,6 +200,7 @@ footer {
   .about--cnt {
     flex-direction: column;
     padding: 20px;
+    height: max-content;
   }
   .about-photo {
     height: 350px;
