@@ -281,7 +281,7 @@ footer {
   }
 
   nav {
-    right: 20px;
+    right: 60px;
   }
 
   a {
@@ -312,12 +312,12 @@ footer {
     flex-direction: column;
     margin-top: 10px;
     padding: 20px;
-    height: 60vh;
+    height: 80vh;
   }
 
   .about-photo {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     padding: 5px;
   }
 
@@ -328,12 +328,13 @@ footer {
   }
 
   .about-h1 {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
 
   .about-p {
     font-size: 12px;
+    width: 300px;
   }
 
   /* Projects */
