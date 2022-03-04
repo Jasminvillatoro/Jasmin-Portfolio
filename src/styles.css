@@ -15,7 +15,6 @@ body {
 header {
   display: flex;
   align-items: center;
-  width: 100%;
   height: 60px;
   background-color: rgba(31, 30, 30, 0.4);
   box-shadow: 0 0 6px 0 #fff;
@@ -31,7 +30,7 @@ nav {
   margin-right: auto;
   padding: 10px;
   position: fixed;
-  width: 12%;
+  width: 16%;
 }
 
 ul {
@@ -72,7 +71,6 @@ li {
   position: absolute;
   text-align: center;
   font-weight: 400;
-  font-size: 70px;
   font-size: 80px;
   background: -webkit-linear-gradient(#c471ed, #ffc0cb);
   -webkit-background-clip: text;
@@ -198,66 +196,139 @@ footer {
 }
 
 /* Media queries */
-/* Phone */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1168px) {
+  .about--cnt {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .about-photo {
+    height: 350px;
+    width: 350px;
+    padding: 5px;
+  }
+
+  .about--text {
+    padding: 20px;
+  }
+
+  .about-h1 {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .about-p {
+    font-size: 20px;
+    padding: 20px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   header {
-    background-color: rgba(31, 30, 30, 0.4);
     box-shadow: none;
   }
 
   nav {
-    left: 45%;
+    right: 80px;
+  }
+
+  /* About Section */
+
+  .about--cnt {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-photo {
+    height: 350px;
+    width: 350px;
+    padding: 5px;
+  }
+
+  .about--text {
+    padding: 20px;
+  }
+
+  .about-h1 {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .about-p {
+    font-size: 20px;
+    padding: 20px;
+    width: 500px;
+  }
+
+  /* Footer  */
+  footer {
+    width: 100%;
+  }
+  .contact-info {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+}
+
+/* Phone */
+@media screen and (max-width: 480px) {
+  header {
+    height: 30px;
+  }
+
+  nav {
+    right: 20px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  li {
+    margin-right: 15px;
   }
 
   .logo {
     width: 16%;
   }
 
-  a {
-    font-size: 12px;
-  }
   /* Hero section */
 
   .hero--cnt {
-    height: 30vh;
+    height: 40vh;
   }
 
   .hero--text {
-    position: absolute;
-    text-align: center;
-    font-weight: 500;
-    font-size: 40px;
-    background: -webkit-linear-gradient(#c471ed, #ffc0cb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 2px;
+    font-size: 20px;
   }
 
-  .name {
-    font-weight: 500;
-    background: -webkit-linear-gradient(#c471ed, #ffc0cb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
   /* About Section */
-
   .about--cnt {
+    justify-content: flex-start;
     flex-direction: column;
-    margin: 20px 0;
-    height: 100vh;
-    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    height: 60vh;
   }
 
   .about-photo {
-    display: none;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
   }
 
   .about--text {
-    padding: 30px;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
   }
 
   .about-h1 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
   }
 
@@ -266,107 +337,38 @@ footer {
   }
 
   /* Projects */
-  .project-h1 {
-    font-size: 22px;
-  }
-
-  .project-p {
-    font-size: 30px;
-    font-weight: 500;
-    margin: 10px 0;
-  }
-
   .projects--container {
-    margin: 20px 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 0;
     grid-gap: 5px;
   }
 
-  /* .projects--container > div {
-    height: min-content;
-    width: 100%;
-  } */
+  .project-h1 {
+    font-size: 16px;
+  }
+
+  .project-p {
+    font-size: 20px;
+    font-weight: 500;
+  }
 
   /* Footer */
   footer {
     height: 100px;
-    width: 100%;
     justify-content: left;
   }
 
   .contact-info {
-    right: 5px;
-    width: max-content;
-    line-height: 15px;
-    font-size: 10px;
+    right: 30px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
   }
+
   .media-icons > div {
-    display: inline;
     padding: 5px;
   }
 
   .footer-text {
     font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 735px) {
-  /* About Section */
-
-  .about--cnt {
-    flex-direction: column;
-
-    margin: 20px 0;
-    height: max-content;
-  }
-
-  .about-photo {
-    background-position-x: center;
-    height: 300px;
-    width: 300px;
-  }
-
-  .about--text {
-    padding: 30px;
-  }
-
-  .about-h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  .about-p {
-    font-size: 12px;
-  }
-}
-
-/* desktop */
-
-@media screen and (max-width: 1199px) {
-  /* About */
-  .about--cnt {
-    height: 50vh;
-    margin: 20px 0;
-    height: 60vh;
-  }
-
-  .about-photo {
-    background-position-x: center;
-    height: 500px;
-    width: 500px;
-  }
-
-  .about--text {
-    padding: 30px;
-  }
-
-  .about-h1 {
-    font-size: 25px;
-    margin-bottom: 20px;
-  }
-
-  .about-p {
-    font-size: 12px;
   }
 }
