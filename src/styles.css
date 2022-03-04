@@ -314,7 +314,7 @@ footer {
     flex-direction: column;
     margin-top: 10px;
     padding: 20px;
-    height: 80vh;
+    height: max-content;
   }
 
   .about-photo {
