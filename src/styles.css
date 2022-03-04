@@ -229,7 +229,7 @@ footer {
   }
 
   nav {
-    right: 80px;
+    right: 60px;
   }
 
   /* About Section */
@@ -237,6 +237,7 @@ footer {
   .about--cnt {
     flex-direction: column;
     padding: 20px;
+    height: max-content;
   }
 
   .about-photo {
