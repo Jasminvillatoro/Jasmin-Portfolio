@@ -1,11 +1,27 @@
-import logo from './Images/logo_.png';
+import logo from './Images/_logoo.png';
 import '../styles.css';
+import React, { useState } from 'react';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
 const Nav = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
   return (
     <header>
       <img className="logo" src={logo} alt="logo" />
       <nav>
-        <ul>
+        <div className="hamburger " onClick={handleToggle}>
+          {navbarOpen ? (
+            <MdClose style={{ color: '#000', width: '40px', height: '40px' }} />
+          ) : (
+            <FiMenu style={{ color: '#000', width: '40px', height: '40px' }} />
+          )}
+        </div>
+        <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
           <li>
             <a href="#home">Home</a>
           </li>
