@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  /* border: 2px solid red; */
 }
 
 /* Header styles */
@@ -13,7 +14,7 @@ header {
   justify-content: flex-end;
   height: 60px;
   width: 100%;
-  background-color: #c4b5fd;
+  /* background-color: #898891; */
   position: fixed;
   z-index: 30;
 }
@@ -47,10 +48,11 @@ a {
 }
 
 a:hover {
-  color: #fff;
+  color: #c4b5fd;
   text-decoration: underline;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
   cursor: pointer;
+  font-size: 1.4rem;
 }
 
 .hamburger {
@@ -62,31 +64,44 @@ a:hover {
 .hero--cnt {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   height: 100vh;
-  position: relative;
-  top: 3.7rem;
-  font-size: 3rem;
+  /* background-color: #c4b5fd; */
+}
+
+.hero-text-cnt {
   padding-left: 2rem;
+  /* background-color: rgb(107, 97, 97); */
 }
 
 .name {
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 3.5rem;
+}
+
+.job-title {
+  font-weight: 400;
+  font-size: 4rem;
   background: -webkit-linear-gradient(#c471ed, #ffc0cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.hero-img {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.hero-text-cnt p {
+  font-size: 1.5rem;
 }
 
-.hero-img img {
+.hero-img-cnt img {
   height: 600px;
+}
+
+.media-icons {
+  margin: 1rem 1rem 0 0;
+  font-size: 2rem;
+}
+
+.media-icons:hover {
+  color: #c471ed;
 }
 
 @media (max-width: 960px) {
@@ -135,25 +150,29 @@ a:hover {
   .menuNav li:first-child {
     margin-top: 6rem;
   }
+
+  /* Hero section */
+  .hero--cnt {
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .job-title {
+    font-size: 3.5rem;
+  }
+  .hero-img-cnt {
+    margin-top: -14em;
+  }
+  .hero-img-cnt img {
+    height: 400px;
+  }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
-  .hero--cnt {
-    padding-top: 4rem;
-    flex-direction: column;
-    padding-left: 1rem;
-    font-size: 2rem;
-  }
-  .name {
-    font-size: 3rem;
-  }
-  .hero-img {
-    justify-content: center;
-  }
-  .hero-img img {
-    height: 400px;
-  }
 }
 /* About Section
 
