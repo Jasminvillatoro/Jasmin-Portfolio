@@ -1,26 +1,64 @@
 import about from './Images/Aboutimg.jpg';
+import { IconContext } from 'react-icons';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { IoLogoCss3 } from 'react-icons/io';
+import { IoLogoJavascript } from 'react-icons/io';
+import { FaReact } from 'react-icons/fa';
+import { FaGitAlt } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { SiVisualstudiocode } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
+import { BsBootstrapFill } from 'react-icons/bs';
+import { FiMail } from 'react-icons/fi';
 const About = () => {
   return (
-    <section className="about--cnt" id="about">
-      <div className="about-img-cnt">
-        <img className="about-photo" src={about} alt="about" />
-      </div>
-      <div className="about--text">
-        <h1 className="about-h1">Passionate Problem Solver</h1>
-        <p className="about-p">
-          Hello I'm Jasmin, <br />
-          Enthusiastic Frontend Developer who loves to create beautiful user
-          interfaces. A little bit about me. I'm 22 years old, been learning
-          frontend development for 6 months now, getting better every day. I'm a
-          dedicated individual setting goals is one of my hobbies. I think some
-          of my strongest skills are communication, problem-solving, and the
-          ability to receive feedback and improve upon it. I'm glad I made the
-          decision to learn programming; it's taught me how to be resourceful
-          and think outside the box. I've been able to accomplish many things I
-          thought were impossible.
-        </p>
-      </div>
-    </section>
+    <>
+      <section className="about--cnt" id="about">
+        <div className="about-img-cnt">
+          <img className="about-photo" src={about} alt="about section photo" />
+        </div>
+        <div className="about--text-cnt">
+          <h1>About Me</h1>
+          <p className="about-p">
+            Hello I'm Jasmin, Enthusiastic Frontend Developer who loves to
+            create beautiful user interfaces. A little bit about me. I'm 22
+            years old, been learning frontend development for 9 months now,
+            getting better every day. I'm a dedicated individual setting goals
+            is one of my hobbies. I think some of my strongest skills are
+            communication, problem-solving, and the ability to receive feedback
+            and improve upon it. I'm glad I made the decision to learn
+            programming; it's taught me how to be resourceful and think outside
+            the box. I've been able to accomplish many things I thought were
+            impossible.
+          </p>
+          <a
+            href="mailto:jasminvilla321@gmail.com? subject=message from portfolio"
+            className="contact-btn-a">
+            <button className="contact-btn">
+              Contact <FiMail />
+            </button>
+          </a>
+        </div>
+      </section>
+      <section className="skills-section">
+        <h1>Skills & Tools</h1>
+        <div className="skills-cnt">
+          <div className="skill-items-cnt">
+            <IconContext.Provider value={{ className: 'skill-items' }}>
+              <AiFillHtml5 style={{ color: '#f55a42' }} />
+              <IoLogoCss3 style={{ color: '#066BF7' }} />
+              <IoLogoJavascript style={{ color: '#E9E67E' }} />
+              <FaReact style={{ color: '#066BF7 ' }} />
+              <FaGitAlt style={{ color: '#f55a42' }} />
+              <FaGithub style={{ color: '#000' }} />
+              <SiVisualstudiocode style={{ color: '#066BF7 ' }} />
+              <SiTailwindcss style={{ color: '#38bdf8' }} />
+              <BsBootstrapFill style={{ color: '#6d28d9' }} />
+            </IconContext.Provider>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
