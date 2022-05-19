@@ -49,7 +49,7 @@ a {
 
 a:hover {
   color: #c4b5fd;
-  text-decoration: underline;
+  text-decoration: underline 3px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
   font-size: 1.4rem;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .hero-img-cnt img {
-  height: 600px;
+  height: 500px;
 }
 
 .media-icons {
@@ -102,6 +102,107 @@ a:hover {
 
 .media-icons:hover {
   color: #c471ed;
+}
+
+/* About Section  */
+.about--cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 4rem;
+  background-color: rgba(243, 232, 255, 0.8);
+}
+
+.about-img-cnt {
+  margin-right: 6rem;
+}
+
+.about-photo {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.about--text-cnt {
+  max-width: 600px;
+  min-width: 300px;
+  /* background-color: #ffc0cb; */
+}
+.about--text-cnt h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  /* text-decoration: underline #c084fc; */
+  color: #c084fc;
+  margin-bottom: 4rem;
+  text-align: center;
+  /* background-color: antiquewhite; */
+}
+.about-p {
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  word-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.contact-btn {
+  height: 2.6rem;
+  width: 10rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #c084fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-btn:hover {
+  background-color: #c471ed;
+}
+
+.contact-btn-a:hover {
+  text-decoration: none;
+}
+/* Skills */
+.skills-section {
+  background-color: rgba(243, 232, 255, 0.8);
+}
+
+.skills-section h1 {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  margin-bottom: 2rem;
+}
+
+.skills-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.skill-items-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c084fc; */
+}
+
+.skill-items {
+  font-size: 6rem;
+  margin-right: 2rem;
+
+  /* color: rgb(255, 72, 0); */
 }
 
 @media (max-width: 960px) {
@@ -169,47 +270,21 @@ a:hover {
   .hero-img-cnt img {
     height: 400px;
   }
+
+  .about-img-cnt {
+    margin-right: 0;
+  }
+  .about--cnt {
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
 }
-/* About Section
 
-.about--cnt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(42, 41, 41);
-  margin-top: 20px;
-  height: 100vh;
-}
-
-.about-photo {
-  height: 600px;
-  width: 600px;
-  border-radius: 50%;
-  padding: 40px;
-}
-
-.about--text {
-  padding: 80px;
-}
-
-.about-h1 {
-  font-size: 30px;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.about-p {
-  font-size: 24px;
-  text-align: justify;
-  margin-left: 5px;
-  word-spacing: 2px;
-}
-
-Projects Section
+/*  Projects Section  
 
 .projects--container {
   margin: 50px 0;
@@ -284,184 +359,4 @@ footer {
 .linkedin-icon {
   height: 25px;
 }
-
-Media queries
-@media screen and (max-width: 1168px) {
-  .about--cnt {
-    flex-direction: column;
-    padding: 20px;
-    height: max-content;
-  }
-  .about-photo {
-    height: 350px;
-    width: 350px;
-    padding: 5px;
-  }
-
-  .about--text {
-    padding: 20px;
-  }
-
-  .about-h1 {
-    font-size: 25px;
-    margin-bottom: 40px;
-  }
-
-  .about-p {
-    font-size: 20px;
-    padding: 20px;
-    width: 500px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  header {
-    box-shadow: none;
-  }
-
-  nav {
-    right: 60px;
-  }
-
-  About Section
-
-  .about--cnt {
-    flex-direction: column;
-    padding: 20px;
-    height: max-content;
-  }
-
-  .about-photo {
-    height: 350px;
-    width: 350px;
-    padding: 5px;
-  }
-
-  .about--text {
-    padding: 20px;
-  }
-
-  .about-h1 {
-    font-size: 25px;
-    margin-bottom: 40px;
-  }
-
-  .about-p {
-    font-size: 20px;
-    padding: 20px;
-    width: 500px;
-  }
-
-  Footer 
-  footer {
-    width: 100%;
-  }
-  .contact-info {
-    font-size: 10px;
-    text-align: center;
-  }
-
-  .footer-text {
-    font-size: 12px;
-  }
-}
-
-Phone
-@media screen and (max-width: 480px) {
-  header {
-    height: 30px;
-  }
-
-  nav {
-    right: 60px;
-  }
-
-  a {
-    font-size: 12px;
-  }
-
-  li {
-    margin-right: 15px;
-  }
-
-  .logo {
-    width: 16%;
-  }
-
-  Hero section
-
-  .hero--cnt {
-    height: 40vh;
-  }
-
-  .hero--text {
-    font-size: 20px;
-  }
-
-  About Section
-  .about--cnt {
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 10px;
-    padding: 20px;
-    height: 80vh;
-  }
-
-  .about-photo {
-    height: 100px;
-    width: 100px;
-    padding: 5px;
-  }
-
-  .about--text {
-    padding: 10px;
-    height: 100px;
-    width: 300px;
-  }
-
-  .about-h1 {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-
-  .about-p {
-    font-size: 12px;
-    width: 300px;
-  }
-
-  Projects
-  .projects--container {
-    margin: 10px 0;
-    grid-gap: 5px;
-  }
-
-  .project-h1 {
-    font-size: 16px;
-  }
-
-  .project-p {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  Footer
-  footer {
-    height: 100px;
-    justify-content: left;
-  }
-
-  .contact-info {
-    right: 30px;
-    line-height: 20px;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .media-icons > div {
-    padding: 5px;
-  }
-
-  .footer-text {
-    font-size: 10px;
-  }
-} */
+ */
