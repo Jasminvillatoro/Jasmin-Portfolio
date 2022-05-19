@@ -47,7 +47,13 @@ const About = () => {
             <IconContext.Provider value={{ className: 'skill-items' }}>
               <AiFillHtml5 style={{ color: '#f55a42' }} />
               <IoLogoCss3 style={{ color: '#066BF7' }} />
-              <IoLogoJavascript style={{ color: '#E9E67E' }} />
+              <IoLogoJavascript
+                style={{
+                  color: '#000',
+                  backgroundColor: '#EDD62E ',
+                  fontSize: '5rem',
+                }}
+              />
               <FaReact style={{ color: '#066BF7 ' }} />
               <FaGitAlt style={{ color: '#f55a42' }} />
               <FaGithub style={{ color: '#000' }} />
