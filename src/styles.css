@@ -126,7 +126,7 @@ nav {
 
 .about--text-cnt {
   max-width: 600px;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 .about--text-cnt h1 {
@@ -197,6 +197,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  row-gap: 12px;
 }
 
 .skill-items {
@@ -459,5 +460,74 @@ footer {
 
   .footer-li {
     padding: 0.5rem;
+  }
+}
+/* Phone */
+@media (max-width: 480px) {
+  /* Hero */
+  .name {
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+
+  .job-title {
+    font-weight: 400;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#c471ed, #ffc0cb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-text-cnt p {
+    font-size: 1rem;
+  }
+
+  .media-icons {
+    margin: 0 1rem 0;
+    font-size: 1.6rem;
+    color: #000;
+  }
+
+  /* About */
+
+  .about--text-cnt h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .about-p {
+    font-size: 1.2rem;
+  }
+
+  .skills-section h1 {
+    font-size: 3rem;
+  }
+
+  .skill-items {
+    font-size: 5rem;
+  }
+
+  /* Projects */
+
+  .project-section-h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  .project-section-h2 {
+    font-size: 2.5rem;
+  }
+
+  .project-description h1 {
+    font-size: 2.3rem;
+  }
+
+  .project-description p {
+    font-size: 1.1rem;
   }
 }
