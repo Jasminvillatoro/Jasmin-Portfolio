@@ -90,7 +90,7 @@ nav {
   font-size: 1.5rem;
 }
 
-.hero-img-cnt img {
+.hero-img {
   height: 500px;
 }
 
@@ -412,13 +412,10 @@ footer {
     font-size: 3.5rem;
   }
 
-  .hero-img-cnt img {
-    height: 400px;
-  }
-
   .about-img-cnt {
     margin-right: 0;
   }
+
   .about--cnt {
     align-items: center;
     flex-direction: column;
@@ -442,6 +439,20 @@ footer {
 
 /* Tablet */
 @media (max-width: 768px) {
+  /* Responsive Images */
+  .hero-img {
+    height: 300px;
+  }
+
+  .about-photo {
+    height: 300px;
+    width: 300px;
+  }
+
+  .project-img {
+    width: 300px;
+    height: 100%;
+  }
   .footer-ul {
     flex-direction: column;
   }
