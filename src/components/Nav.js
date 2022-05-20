@@ -3,6 +3,8 @@ import '../styles.css';
 import React, { useState } from 'react';
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
+import { FiMail } from 'react-icons/fi';
+
 const Nav = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -21,25 +23,29 @@ const Nav = () => {
             <FiMenu style={{ color: '#000', width: '40px', height: '40px' }} />
           )}
         </div>
-        <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
-          <li>
+        <ul className={`menuNav nav-ul ${navbarOpen ? ' showMenu' : ''}`}>
+          <li className="nav-li">
             <a className="navbar-a" href="#home">
               Home
             </a>
           </li>
-          <li>
+          <li className="nav-li">
             <a className="navbar-a" href="#about">
               About
             </a>
           </li>
-          <li>
+          <li className="nav-li">
             <a className="navbar-a" href="#projects">
               Projects
             </a>
           </li>
-          <li>
-            <a className="navbar-a" href="#contact">
-              Contact
+          <li className="nav-li">
+            <a
+              className="  contact-btn-a"
+              href="mailto:jasminvilla321@gmail.com? subject=message from portfolio">
+              <button className="contact-btn">
+                Contact <FiMail />
+              </button>
             </a>
           </li>
         </ul>
