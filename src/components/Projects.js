@@ -1,13 +1,13 @@
 import project1 from './Images/project1.png';
 import project2 from './Images/portfolio.png';
 import project3 from './Images/card.png';
-import project4 from './Images/plants.png';
+import project4 from './Images/sunnypage.png';
 
 const Projects = () => {
   return (
-    <section id="project-section">
+    <section id="projects" className="project-section">
       <h1 className="project-section-h1">Projects</h1>
-      <p className="project-section-p">A selection of my projects</p>
+      <h2 className="project-section-h2">A selection of my projects</h2>
       <div className="projects-cnt">
         <div className="project-wrapper">
           <div className="project-description">
@@ -34,7 +34,7 @@ const Projects = () => {
             <img className="project-img" src={project1} alt="project 1 image" />
           </div>
         </div>
-        <div className="project-wrapper">
+        <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Portfolio</h1>
             <p>
@@ -87,9 +87,9 @@ const Projects = () => {
             <img className="project-img" src={project3} alt="project 3 image" />
           </div>
         </div>
-        <div className="project-wrapper">
+        <div className="project-wrapper row-reverse">
           <div className="project-description">
-            <h1>Portfolio</h1>
+            <h1>Sunnyside Landing Page</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum optio, sequi quod aliquid esse accusamus ipsam eum
@@ -101,13 +101,13 @@ const Projects = () => {
             <div className="btn-wrapper">
               <a
                 className="project-btn-a"
-                href="https://jasminvillatoro.github.io/Plants-101/">
+                href="https://jasminvillatoro.github.io/sunnyside-agency/">
                 <button className="project-btn">Live</button>
               </a>
               <a
                 className="project-btn-a"
-                href="https://github.com/Jasminvillatoro/Plants-101">
-                <button className="project-btn">github</button>
+                href="https://github.com/Jasminvillatoro/sunnyside-agency">
+                <button className="project-btn">Github</button>
               </a>
             </div>
           </div>
