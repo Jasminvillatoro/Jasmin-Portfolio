@@ -57,7 +57,11 @@ const Projects = () => {
             </div>
           </div>
           <div className="project-img-cnt">
-            <img className="project-img" src={project2} alt="project 2 image" />
+            <img
+              className="project-img "
+              src={project2}
+              alt="project 2 image"
+            />
           </div>
         </div>
         <div className="project-wrapper">
