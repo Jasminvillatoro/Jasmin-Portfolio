@@ -27,7 +27,7 @@ const Hero = () => {
             <HiOutlineMail />
           </a>
         </IconContext.Provider>
-        <p>I love to level up my skills! 🤩</p>
+        <p>I love to level up my skills!</p>
       </div>
       <div className="hero-img-cnt">
         <img className="hero-img" src={coder} alt="programmer" />
