@@ -12,11 +12,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <div className="project-description">
             <h1>My Future Travels</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. uae fugit
-              sit consectetur aspernatur. Dicta aspernatur praesentium, vero
-              molestiae odit natus nobis illo repellat repudiandae dolor
-            </p>
+            <p></p>
             <div className="btn-wrapper">
               <a
                 className="project-btn-a"
@@ -37,12 +33,7 @@ const Projects = () => {
         <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Portfolio</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum optio, sequi quod aliquid esse accusamus ipsam eum
-              laudantium placeat rem ullam nesciunt exercitationem minima libero
-              voluptas explicabo, maxime labore fuga? Dolorem, illo? Eaque
-            </p>
+            <p></p>
             <div className="btn-wrapper">
               <a
                 className="project-btn-a"
@@ -66,14 +57,8 @@ const Projects = () => {
         </div>
         <div className="project-wrapper">
           <div className="project-description">
-            <h1>Portfolio</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum optio, sequi quod aliquid esse accusamus ipsam eum
-              laudantium placeat rem ullam nesciunt exercitationem minima libero
-              si deleniti voluptatum quam dolore, accusantium, eum tempore.
-              Delectus.
-            </p>
+            <h1>Online Business Card</h1>
+            <p></p>
             <div className="btn-wrapper">
               <a
                 className="project-btn-a"
@@ -94,14 +79,7 @@ const Projects = () => {
         <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Sunnyside Landing Page</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum optio, sequi quod aliquid esse accusamus ipsam eum
-              laudantium placeat rem ullam nesciunt exercitationem minima libero
-              voluptas explicabo, maxime labore fuga? Dolorem, illo? Eaque
-              voluptatibus, esse in natus el et dolor quasi deleniti voluptatum
-              quam dolore, accusantium, eum tempore. Delectus.
-            </p>
+            <p></p>
             <div className="btn-wrapper">
               <a
                 className="project-btn-a"
