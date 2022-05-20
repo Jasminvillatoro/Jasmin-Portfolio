@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  /* border: 2px solid red; */
 }
 
 /* Header styles */
@@ -68,12 +67,10 @@ nav {
   align-items: center;
   justify-content: space-around;
   height: 100vh;
-  /* background-color: #c4b5fd; */
 }
 
 .hero-text-cnt {
   padding-left: 2rem;
-  /* background-color: rgb(107, 97, 97); */
 }
 
 .name {
@@ -112,7 +109,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
   padding: 4rem;
   background-color: rgba(243, 232, 255, 0.8);
 }
@@ -131,7 +127,6 @@ nav {
 .about--text-cnt {
   max-width: 600px;
   min-width: 300px;
-  /* background-color: #ffc0cb; */
 }
 
 .about--text-cnt h1 {
@@ -139,11 +134,9 @@ nav {
   font-size: 3rem;
   letter-spacing: 4px;
   word-spacing: 6px;
-  /* text-decoration: underline #c084fc; */
   color: #c084fc;
   margin-bottom: 4rem;
   text-align: center;
-  /* background-color: antiquewhite; */
 }
 
 .about-p {
@@ -214,7 +207,8 @@ nav {
 /* Projects Section */
 
 .project-section {
-  padding: 1em 4em;
+  padding: 1em 2em;
+  background-color: #ede9fe;
 }
 
 .project-section-h1 {
@@ -239,18 +233,16 @@ nav {
 }
 
 .projects-cnt {
-  /* background-color: #c4b5fd; */
   display: flex;
   flex-direction: column;
   row-gap: 6em;
+  padding: 1em 0em;
 }
 
 .project-wrapper {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-  /* border: 1px solid red; */
 }
 
 .row-reverse {
@@ -261,7 +253,6 @@ nav {
   max-width: 600px;
   min-width: 200px;
   margin: 0 1rem 0 1rem;
-  /* background-color: #ffc0cb; */
 }
 
 .project-description h1 {
@@ -269,14 +260,12 @@ nav {
   font-size: 2.5rem;
   letter-spacing: 2px;
   font-weight: 400;
-  /* text-align: center; */
   margin: 0 0 2rem 0;
 }
 
 .project-description p {
   margin: 0 0 2rem 0;
   font-size: 1.3rem;
-  /* font-weight: 600; */
   letter-spacing: 1px;
   color: #6c6c6d;
 }
@@ -310,9 +299,6 @@ nav {
   margin-right: 1rem;
 }
 
-.project-img-cnt {
-}
-
 .project-img {
   width: 500px;
   height: 100%;
@@ -321,14 +307,12 @@ nav {
 }
 
 /* Footer Styles   */
-
 footer {
   height: 200px;
   background-color: rgba(221, 214, 254, 0.9);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 2rem;
 }
 
 .links-cnt h2 {
@@ -428,9 +412,6 @@ footer {
     font-size: 3.5rem;
   }
 
-  .hero-img-cnt {
-    /* margin-top: -5em; */
-  }
   .hero-img-cnt img {
     height: 400px;
   }
