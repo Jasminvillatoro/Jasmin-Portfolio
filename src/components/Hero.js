@@ -30,7 +30,7 @@ const Hero = () => {
         <p>I love to level up my skills! 🤩</p>
       </div>
       <div className="hero-img-cnt">
-        <img src={coder} alt="programmer" />
+        <img className="hero-img" src={coder} alt="programmer" />
       </div>
     </section>
   );
