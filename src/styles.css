@@ -147,6 +147,7 @@ nav {
 
 .about-p {
   letter-spacing: 2px;
+  line-height: 2rem;
   font-size: 1.4rem;
   word-spacing: 2px;
   font-weight: 400;
@@ -505,6 +506,7 @@ footer {
 
   .about-p {
     font-size: 1.2rem;
+    line-height: 1.8rem;
   }
 
   .skills-section h1 {
