@@ -70,6 +70,9 @@ nav {
 }
 
 .hero-text-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding-left: 2rem;
 }
 
@@ -95,7 +98,7 @@ nav {
 }
 
 .media-icons {
-  margin: 0 1rem 0;
+  margin-right: 1rem;
   font-size: 2rem;
   color: #000;
 }
@@ -104,6 +107,9 @@ nav {
   color: #c471ed;
 }
 
+.flex-icons {
+  display: flex;
+}
 /* About Section  */
 .about--cnt {
   display: flex;
@@ -479,11 +485,10 @@ footer {
   }
 
   .hero-text-cnt p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .media-icons {
-    margin: 0 1rem 0;
     font-size: 1.6rem;
     color: #000;
   }
