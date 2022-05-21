@@ -358,7 +358,16 @@ footer {
 .contact-icons p {
   margin-top: 1rem;
 }
-
+@media (min-width: 1600px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 6rem;
+    width: 50%;
+    max-width: 900px;
+  }
+}
 @media (max-width: 960px) {
   /* Hamburger Menu */
   .nav-ul {
