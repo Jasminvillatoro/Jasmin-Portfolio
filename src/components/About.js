@@ -20,16 +20,13 @@ const About = () => {
         <div className="about--text-cnt">
           <h1>About Me</h1>
           <p className="about-p">
-            Hello I'm Jasmin, Enthusiastic Frontend Developer who loves to
-            create beautiful user interfaces. A little bit about me. I'm 22
-            years old, been learning frontend development for 9 months now,
-            getting better every day. I'm a dedicated individual setting goals
-            is one of my hobbies. I think some of my strongest skills are
+            Hello, I'm Jasmin, Enthusiastic Frontend Developer who loves to
+            create beautiful user interfaces. I'm a dedicated individual who
+            loves to accomplish my goals. Some of my most vital skills are
             communication, problem-solving, and the ability to receive feedback
-            and improve upon it. I'm glad I made the decision to learn
-            programming; it's taught me how to be resourceful and think outside
-            the box. I've been able to accomplish many things I thought were
-            impossible.
+            and improve upon it. I'm glad I decided to learn to program. It's
+            taught me how to become resourceful and think outside the box. I've
+            been able to accomplish many things I thought were impossible.
           </p>
           <a
             href="mailto:jasminvilla321@gmail.com? subject=message from portfolio"
