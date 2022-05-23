@@ -43,7 +43,7 @@ const Nav = () => {
             <a
               className="  contact-btn-a"
               href="mailto:jasminvilla321@gmail.com? subject=message from portfolio">
-              <button className="contact-btn">
+              <button className="contact-btn-nav">
                 Contact <FiMail />
               </button>
             </a>
