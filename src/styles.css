@@ -439,6 +439,7 @@ footer {
     max-width: 200px;
     z-index: 30;
     background-color: rgba(221, 214, 254, 1);
+    transition: 0.7s ease;
   }
 
   .menuNav.showMenu {
