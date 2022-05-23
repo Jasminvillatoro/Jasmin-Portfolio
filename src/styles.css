@@ -96,7 +96,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 2rem;
+  padding: 6rem 0 0 2rem;
 }
 
 .name {
@@ -494,6 +494,11 @@ footer {
 /* Tablet */
 @media (max-width: 768px) {
   /* Responsive Images */
+
+  .hero-text-cnt {
+    padding: 0 0 0 2rem;
+  }
+
   .hero-img {
     height: 300px;
   }
