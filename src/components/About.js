@@ -31,7 +31,7 @@ const About = () => {
           <a
             href="mailto:jasminvilla321@gmail.com? subject=message from portfolio"
             className="contact-btn-a">
-            <button className="contact-btn">
+            <button className="contact-btn-about">
               Contact <FiMail />
             </button>
           </a>
