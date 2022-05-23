@@ -5,6 +5,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header styles */
 
 header {
@@ -60,6 +64,25 @@ nav {
   display: none;
 }
 
+.contact-btn-nav {
+  height: 2.6rem;
+  width: 10rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #c084fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact-btn-nav:hover {
+  background-color: #c471ed;
+}
 /* Hero section */
 
 .hero--cnt {
@@ -131,6 +154,9 @@ nav {
 }
 
 .about--text-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 600px;
   min-width: 400px;
 }
@@ -146,17 +172,17 @@ nav {
 }
 
 .about-p {
-  letter-spacing: 2px;
-  line-height: 2rem;
+  text-align: justify;
+  line-height: 2.2rem;
   font-size: 1.4rem;
-  word-spacing: 2px;
+  word-spacing: 0.6px;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
-.contact-btn {
-  height: 2.6rem;
-  width: 10rem;
+.contact-btn-about {
+  height: 3rem;
+  width: 16rem;
   border: none;
   border-radius: 4px;
   background-color: #c084fc;
@@ -168,9 +194,10 @@ nav {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin: 2rem 0 0 0;
 }
 
-.contact-btn:hover {
+.contact-btn-about:hover {
   background-color: #c471ed;
 }
 
@@ -436,6 +463,8 @@ footer {
     font-size: 3.5rem;
   }
 
+  /* About section */
+
   .about-img-cnt {
     margin-right: 0;
   }
@@ -477,6 +506,7 @@ footer {
     width: 300px;
     height: 100%;
   }
+
   .footer-ul {
     flex-direction: column;
   }
@@ -514,9 +544,6 @@ footer {
 
   .about--text-cnt {
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .about--text-cnt h1 {
@@ -526,16 +553,8 @@ footer {
   }
 
   .about-p {
-    text-align: justify;
     font-size: 1.3rem;
-    word-spacing: 0;
-    letter-spacing: 0;
-  }
-
-  .contact-btn {
-    margin: 2rem 0 0 0;
-    height: 3rem;
-    width: 16rem;
+    line-height: 2rem;
   }
 
   .skills-section h1 {
