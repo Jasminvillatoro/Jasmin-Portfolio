@@ -1,3 +1,3 @@
 My Portfolio
 
-link to see Live https://jasminvillatoro.github.io/Jasmin-Portfolio/
+link to see Live https://www.jasminvillatoroportfolio.com/
