@@ -81,6 +81,7 @@ nav {
 
 .contact-btn-nav:hover {
   background-color: #c471ed;
+  cursor: pointer;
 }
 /* Hero section */
 
@@ -198,6 +199,7 @@ nav {
 
 .contact-btn-about:hover {
   background-color: #c471ed;
+  cursor: pointer;
 }
 
 .contact-btn-a {
@@ -326,6 +328,7 @@ nav {
 
 .project-btn:hover {
   background-color: #c471ed;
+  cursor: pointer;
 }
 
 .project-btn-a {
