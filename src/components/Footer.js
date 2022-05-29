@@ -32,13 +32,22 @@ const Footer = () => {
         <div className="contact-icons">
           <h2>Get in touch</h2>
           <div>
-            <a href="https://www.linkedin.com/in/jasmin-villatoro/">
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.linkedin.com/in/jasmin-villatoro/">
               <FaLinkedin />
             </a>
-            <a href="https://twitter.com/Jas_codes">
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/Jas_codes">
               <FaTwitterSquare />
             </a>
-            <a href="https://github.com/Jasminvillatoro">
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/Jasminvillatoro">
               <FaGithub />
             </a>
             <a href="mailto:jasminvilla321@gmail.com? subject=message from portfolio">

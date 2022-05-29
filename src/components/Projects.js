@@ -15,11 +15,15 @@ const Projects = () => {
             <p></p>
             <div className="btn-wrapper">
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://jasminvillatoro.github.io/future-travels/">
                 <button className="project-btn">Live</button>
               </a>
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://github.com/Jasminvillatoro/future-travels">
                 <button className="project-btn">Github</button>
@@ -36,11 +40,15 @@ const Projects = () => {
             <p></p>
             <div className="btn-wrapper">
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
-                href="https://jasminvillatoro.github.io/Jasmin-Portfolio/">
+                href="https://www.jasminvillatoroportfolio.com/">
                 <button className="project-btn">Live</button>
               </a>
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://github.com/Jasminvillatoro/Jasmin-Portfolio">
                 <button className="project-btn">Github</button>
@@ -61,11 +69,15 @@ const Projects = () => {
             <p></p>
             <div className="btn-wrapper">
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://jasminvillatoro.github.io/digital-business-card/">
                 <button className="project-btn">Live</button>
               </a>
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://github.com/Jasminvillatoro/digital-business-card">
                 <button className="project-btn">github</button>
@@ -82,11 +94,15 @@ const Projects = () => {
             <p></p>
             <div className="btn-wrapper">
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://jasminvillatoro.github.io/sunnyside-agency/">
                 <button className="project-btn">Live</button>
               </a>
               <a
+                target="_blank"
+                rel="noopener"
                 className="project-btn-a"
                 href="https://github.com/Jasminvillatoro/sunnyside-agency">
                 <button className="project-btn">Github</button>
