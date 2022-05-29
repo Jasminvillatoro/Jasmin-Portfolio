@@ -20,7 +20,7 @@ const About = () => {
         <div className="about--text-cnt">
           <h1>About Me</h1>
           <p className="about-p">
-            Hello, I'm Jasmin, Enthusiastic Frontend Developer who loves to
+            Hello, I'm Jasmin, an Enthusiastic Frontend Developer who loves to
             create beautiful user interfaces. I'm a dedicated individual who
             loves to accomplish my goals. Some of my most vital skills are
             communication, problem-solving, and the ability to receive feedback
