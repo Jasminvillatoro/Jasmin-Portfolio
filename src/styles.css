@@ -172,7 +172,6 @@ nav {
 }
 
 .about-p {
-  text-align: justify;
   line-height: 2.2rem;
   font-size: 1.4rem;
   word-spacing: 0.6px;
@@ -551,7 +550,7 @@ footer {
   /* About */
 
   .about--text-cnt {
-    padding: 1rem;
+    padding: 1rem 2rem;
   }
 
   .about--text-cnt h1 {
