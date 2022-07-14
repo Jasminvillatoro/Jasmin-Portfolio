@@ -1,6 +1,6 @@
 import project1 from './Images/project1.png';
 import project2 from './Images/portfolio.png';
-import project3 from './Images/card.png';
+import project3 from './Images/taskapp.png';
 import project4 from './Images/sunnypage.png';
 
 const Projects = () => {
@@ -12,7 +12,11 @@ const Projects = () => {
         <div className="project-wrapper">
           <div className="project-description">
             <h1>My Future Travels</h1>
-            <p></p>
+            <p>
+              {/* Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups. */}
+            </p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
@@ -37,7 +41,11 @@ const Projects = () => {
         <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Portfolio</h1>
-            <p></p>
+            <p>
+              {/* Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups. */}
+            </p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
@@ -65,8 +73,12 @@ const Projects = () => {
         </div>
         <div className="project-wrapper">
           <div className="project-description">
-            <h1>Online Business Card</h1>
-            <p></p>
+            <h1>Task</h1>
+            <p>
+              {/* Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups. */}
+            </p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
@@ -91,7 +103,11 @@ const Projects = () => {
         <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Sunnyside Landing Page</h1>
-            <p></p>
+            <p>
+              {/* Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups. */}
+            </p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
