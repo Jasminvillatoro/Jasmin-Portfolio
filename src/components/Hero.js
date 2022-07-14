@@ -40,7 +40,6 @@ const Hero = () => {
               <HiOutlineMail />
             </a>
           </div>
-          <p>I love to level up my skills!</p>
         </div>
         <div className="hero-img-cnt">
           <img className="hero-img" src={coder} alt="programmer" />
