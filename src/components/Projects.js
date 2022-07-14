@@ -84,14 +84,14 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener"
                 className="project-btn-a"
-                href="https://jasminvillatoro.github.io/digital-business-card/">
+                href="https://jasminvillatoro.github.io/Tasks/">
                 <button className="project-btn">Live</button>
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 className="project-btn-a"
-                href="https://github.com/Jasminvillatoro/digital-business-card">
+                href="https://github.com/Jasminvillatoro/Tasks">
                 <button className="project-btn">github</button>
               </a>
             </div>
