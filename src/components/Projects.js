@@ -12,11 +12,8 @@ const Projects = () => {
         <div className="project-wrapper">
           <div className="project-description">
             <h1>My Future Travels</h1>
-            <p>
-              {/* Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups. */}
-            </p>
+            <h2>Created with</h2>
+            <p>JavaScript, React, Css, Data</p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
@@ -41,11 +38,9 @@ const Projects = () => {
         <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Advice Generator</h1>
-            <p>
-              {/* Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups. */}
-            </p>
+            <h2>Created with</h2>
+            <p>Html, Css, JavaScript, Rest Api </p>
+
             <div className="btn-wrapper">
               <a
                 target="_blank"
@@ -74,11 +69,8 @@ const Projects = () => {
         <div className="project-wrapper">
           <div className="project-description">
             <h1>Task</h1>
-            <p>
-              {/* Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups. */}
-            </p>
+            <h2>Created with</h2>
+            <p>JavaScript, React, Tailwindcss, CRUD</p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
@@ -103,11 +95,8 @@ const Projects = () => {
         <div className="project-wrapper row-reverse">
           <div className="project-description">
             <h1>Sunnyside Landing Page</h1>
-            <p>
-              {/* Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups. */}
-            </p>
+            <h2>Created with</h2>
+            <p>Html, JavaScript, Css grid, Css Flex Box, Animations</p>
             <div className="btn-wrapper">
               <a
                 target="_blank"
