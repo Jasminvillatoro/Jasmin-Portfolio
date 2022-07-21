@@ -1,5 +1,5 @@
 import project1 from './Images/project1.png';
-import project2 from './Images/portfolio.png';
+import project2 from './Images/advice-generator.png';
 import project3 from './Images/taskapp.png';
 import project4 from './Images/sunnypage.png';
 
@@ -40,7 +40,7 @@ const Projects = () => {
         </div>
         <div className="project-wrapper row-reverse">
           <div className="project-description">
-            <h1>Portfolio</h1>
+            <h1>Advice Generator</h1>
             <p>
               {/* Lorem ipsum is placeholder text commonly used in the graphic,
               print, and publishing industries for previewing layouts and visual
@@ -51,14 +51,14 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener"
                 className="project-btn-a"
-                href="https://www.jasminvillatoroportfolio.com/">
+                href="https://jasminvillatoro.github.io/Advice-Generator/">
                 <button className="project-btn">Live</button>
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 className="project-btn-a"
-                href="https://github.com/Jasminvillatoro/Jasmin-Portfolio">
+                href="https://github.com/Jasminvillatoro/Advice-Generator">
                 <button className="project-btn">Github</button>
               </a>
             </div>
