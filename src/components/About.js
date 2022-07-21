@@ -20,13 +20,11 @@ const About = () => {
         <div className="about--text-cnt">
           <h1>About Me</h1>
           <p className="about-p">
-            Hello, I'm Jasmin, an Enthusiastic Frontend Developer who loves to
-            create beautiful user interfaces. I'm a dedicated individual who
-            loves to accomplish my goals. Some of my most vital skills are
-            communication, problem-solving, and the ability to receive feedback
-            and improve upon it. I'm glad I decided to learn to program. It's
-            taught me how to become resourceful and think outside the box. I've
-            been able to accomplish many things I thought were impossible.
+            Hello! My name is Jasmin, I'm a Frontend Web Developer who loves to
+            code beautiful interfaces with HTML, CSS, JavaScript, and Reactjs.
+            I've created multiple UI projects as well as collaborated with other
+            software developers. I'm an open-minded individual who loves to
+            learn new technologies.
           </p>
           <a
             href="mailto:jasminvilla321@gmail.com? subject=message from portfolio"
@@ -38,7 +36,7 @@ const About = () => {
         </div>
       </section>
       <section className="skills-section">
-        <h1>Skills & Tools</h1>
+        <h1>Tech Stack & Tools</h1>
         <div className="skills-cnt">
           <div className="skill-items-cnt">
             <IconContext.Provider value={{ className: 'skill-items' }}>
