@@ -23,8 +23,8 @@ const About = () => {
             Hello! My name is Jasmin, I'm a Frontend Web Developer who loves to
             code beautiful interfaces with HTML, CSS, JavaScript, and Reactjs.
             I've created multiple UI projects as well as collaborated with other
-            software developers. I'm an open-minded individual who loves to
-            learn new technologies.
+            software developers. I'm an open-minded individual who loves
+            learning new technologies.
           </p>
           <a
             href="mailto:jasminvilla321@gmail.com? subject=message from portfolio"
