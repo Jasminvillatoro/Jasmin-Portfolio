@@ -1,5 +1,5 @@
 import project1 from './Images/project1.png';
-import project2 from './Images/advice-generator.png';
+import project2 from './Images/githubapp.png';
 import project3 from './Images/taskapp.png';
 import project4 from './Images/sunnypage.png';
 
@@ -37,23 +37,23 @@ const Projects = () => {
         </div>
         <div className="project-wrapper row-reverse">
           <div className="project-description">
-            <h1>Advice Generator</h1>
+            <h1>GitHub User Search App</h1>
             <h2>Created with</h2>
-            <p>Html, Css, JavaScript, Rest Api </p>
+            <p>Html, Css, JavaScript, and JSON API</p>
 
             <div className="btn-wrapper">
               <a
                 target="_blank"
                 rel="noopener"
                 className="project-btn-a"
-                href="https://jasminvillatoro.github.io/Advice-Generator/">
+                href="https://github-user-search-app012.netlify.app/">
                 <button className="project-btn">Live</button>
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 className="project-btn-a"
-                href="https://github.com/Jasminvillatoro/Advice-Generator">
+                href="https://github.com/Jasminvillatoro/github-user-search-app">
                 <button className="project-btn">Github</button>
               </a>
             </div>
