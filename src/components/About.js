@@ -1,4 +1,4 @@
-import about from './Images/Aboutimg.jpg';
+import about from './Images/myimage.png';
 import { IconContext } from 'react-icons';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -15,7 +15,11 @@ const About = () => {
     <>
       <section className="about--cnt" id="about">
         <div className="about-img-cnt">
-          <img className="about-photo" src={about} alt="about section photo" />
+          <img
+            className="about-photo"
+            src={about}
+            alt="about section profile"
+          />
         </div>
         <div className="about--text-cnt">
           <h1>About Me</h1>
