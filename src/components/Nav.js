@@ -40,7 +40,9 @@ const Nav = () => {
             </a>
           </li>
           <li className='nav-li'>
-            <a className='navbar-a' href='#contact'>
+            <a
+              className='navbar-a'
+              href='mailto:jasminvilla321@gmail.com? subject=message from portfolio'>
               Contact
             </a>
           </li>
