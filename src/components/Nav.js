@@ -1,4 +1,4 @@
-import logo from './Images/_logoo.png';
+import logo from './Images/_logo.png';
 import '../styles.css';
 import React, { useState } from 'react';
 import { MdClose } from 'react-icons/md';
@@ -14,38 +14,34 @@ const Nav = () => {
 
   return (
     <header>
-      <img className="logo" src={logo} alt="logo" />
+      <img className='logo' src={logo} alt='logo' />
       <nav>
-        <div className="hamburger " onClick={handleToggle}>
+        <div className='hamburger ' onClick={handleToggle}>
           {navbarOpen ? (
-            <MdClose style={{ color: '#000', width: '40px', height: '40px' }} />
+            <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
           ) : (
-            <FiMenu style={{ color: '#000', width: '40px', height: '40px' }} />
+            <FiMenu style={{ color: '#fff', width: '40px', height: '40px' }} />
           )}
         </div>
         <ul className={`menuNav nav-ul ${navbarOpen ? ' showMenu' : ''}`}>
-          <li className="nav-li">
-            <a className="navbar-a" href="#home">
+          <li className='nav-li'>
+            <a className='navbar-a' href='#home'>
               Home
             </a>
           </li>
-          <li className="nav-li">
-            <a className="navbar-a" href="#about">
+          <li className='nav-li'>
+            <a className='navbar-a' href='#about'>
               About
             </a>
           </li>
-          <li className="nav-li">
-            <a className="navbar-a" href="#projects">
+          <li className='nav-li'>
+            <a className='navbar-a' href='#projects'>
               Projects
             </a>
           </li>
-          <li className="nav-li">
-            <a
-              className="  contact-btn-a"
-              href="mailto:jasminvilla321@gmail.com? subject=message from portfolio">
-              <button className="contact-btn-nav">
-                Contact <FiMail />
-              </button>
+          <li className='nav-li'>
+            <a className='navbar-a' href='#contact'>
+              Contact
             </a>
           </li>
         </ul>
