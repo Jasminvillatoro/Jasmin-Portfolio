@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  background-color: #162028;
 }
 
 html {
@@ -17,8 +18,8 @@ header {
   justify-content: flex-end;
   height: 60px;
   width: 100%;
-  background-color: rgba(221, 214, 254, 0.9);
   z-index: 40;
+  padding-top: 2rem;
 }
 
 nav {
@@ -41,104 +42,91 @@ nav {
 .nav-li {
   padding: 1rem;
   list-style: none;
+  border-radius: 0.75rem;
 }
 
 .navbar-a {
   text-decoration: none;
   font-size: 1.3rem;
   letter-spacing: 1px;
-  color: #000;
+  color: #fff;
   font-weight: 400;
+  padding: 1rem;
+  border-radius: 0.75rem;
 }
 
 .navbar-a:hover {
-  color: #c084fc;
-  text-decoration: underline 3px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
+  transition: 0.3s;
+  animation-delay: 0.2s;
+  background-color: #9cf5b2;
+  color: #000;
 }
 
 .hamburger {
   display: none;
 }
 
-.contact-btn-nav {
-  height: 2.6rem;
-  width: 10rem;
-  border: none;
-  border-radius: 4px;
-  background-color: #c084fc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.contact-btn-nav:hover {
-  background-color: #c471ed;
-  cursor: pointer;
-}
 /* Hero section */
 
 .hero--cnt {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 100vh;
+  background-color: #162028;
 }
 
 .hero-text-cnt {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 6rem 0 0 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 
 .name {
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.jasmin {
+  color: #9cf5b2;
 }
 
 .job-title {
   font-weight: 400;
-  font-size: 4rem;
-  background: -webkit-linear-gradient(#c471ed, #ffc0cb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .hero-text-cnt p {
-  font-size: 1.5rem;
-}
-
-.hero-img {
-  height: 500px;
-}
-
-.media-icons {
-  margin-right: 1rem;
-  font-size: 2rem;
-  color: #000;
-}
-
-.media-icons:hover {
-  color: #c471ed;
+  font-size: 1rem;
 }
 
 .flex-icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.media-icons {
+  margin-right: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.media-icons:hover {
+  color: #9cf5b2;
+}
+
 /* About Section  */
 .about--cnt {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4rem;
-  background-color: rgba(243, 232, 255, 0.8);
+  color: #fff;
 }
 
 .about-img-cnt {
@@ -165,7 +153,7 @@ nav {
   font-size: 3rem;
   letter-spacing: 4px;
   word-spacing: 6px;
-  color: #c084fc;
+  color: #9cf5b2;
   margin-bottom: 4rem;
   text-align: center;
 }
@@ -183,7 +171,7 @@ nav {
   width: 16rem;
   border: none;
   border-radius: 4px;
-  background-color: #c084fc;
+  background-color: #9cf5b2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,7 +184,6 @@ nav {
 }
 
 .contact-btn-about:hover {
-  background-color: #c471ed;
   cursor: pointer;
 }
 
@@ -205,9 +192,6 @@ nav {
 }
 
 /* Skills */
-.skills-section {
-  background-color: rgba(243, 232, 255, 0.8);
-}
 
 .skills-section h1 {
   text-align: center;
@@ -215,6 +199,7 @@ nav {
   letter-spacing: 4px;
   word-spacing: 6px;
   padding-top: 4rem;
+  color: #9cf5b2;
 }
 
 .skills-cnt {
@@ -242,7 +227,6 @@ nav {
 
 .project-section {
   padding: 1em 2em;
-  background-color: #ede9fe;
 }
 
 .project-section-h1 {
@@ -252,6 +236,7 @@ nav {
   text-align: center;
   text-transform: uppercase;
   margin-top: 20px;
+  color: #fff;
 }
 
 .project-section-h2 {
@@ -259,9 +244,7 @@ nav {
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
-  background: -webkit-linear-gradient(#c471ed, #ffc0cb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #9cf5b2;
   letter-spacing: 2px;
   margin-bottom: 4rem;
 }
@@ -293,6 +276,7 @@ nav {
   max-width: 600px;
   min-width: 200px;
   margin: 0 1rem 0 1rem;
+  color: #fff;
 }
 
 .project-description h1 {
@@ -313,7 +297,7 @@ nav {
   margin: 0 0 2rem 0;
   font-size: 1.3rem;
   letter-spacing: 1px;
-  color: #6c6c6d;
+  color: #fff;
 }
 
 .btn-wrapper {
@@ -325,11 +309,11 @@ nav {
   width: 10rem;
   border: none;
   border-radius: 4px;
-  background-color: #c084fc;
+  background-color: #9cf5b2;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #000;
   font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -337,7 +321,7 @@ nav {
 }
 
 .project-btn:hover {
-  background-color: #c471ed;
+  background-color: #9cf5b2;
   cursor: pointer;
 }
 
@@ -356,10 +340,10 @@ nav {
 /* Footer Styles   */
 footer {
   height: 200px;
-  background-color: rgba(221, 214, 254, 0.9);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  color: #fff;
 }
 
 .links-cnt h2 {
@@ -380,13 +364,13 @@ footer {
 .footer-a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #000;
+  color: #9cf5b2;
   letter-spacing: 1px;
 }
 
 .footer-a:hover {
   text-decoration: underline;
-  color: #c471ed;
+  color: #9cf5b2;
 }
 
 .contact-icons {
@@ -451,7 +435,7 @@ footer {
     width: 0;
     max-width: 200px;
     z-index: 30;
-    background-color: rgba(221, 214, 254, 1);
+    background-color: #162028;
     transition: 0.7s ease;
   }
 
@@ -569,9 +553,7 @@ footer {
   .job-title {
     font-weight: 400;
     font-size: 3rem;
-    background: -webkit-linear-gradient(#c471ed, #ffc0cb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #9cf5b2;
   }
 
   .hero-text-cnt p {
@@ -580,7 +562,6 @@ footer {
 
   .media-icons {
     font-size: 1.6rem;
-    color: #000;
   }
 
   /* About */
