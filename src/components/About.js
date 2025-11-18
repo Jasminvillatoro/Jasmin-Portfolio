@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 import { SiVisualstudiocode } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
 import { BsBootstrapFill } from 'react-icons/bs';
-import { FiMail } from 'react-icons/fi';
+import { HiOutlineMail } from 'react-icons/hi';
 const About = () => {
   return (
     <>
@@ -37,6 +37,16 @@ const About = () => {
             I’ve built several projects and had the chance to contribute to an
             open-source project, which was an awesome experience.
           </p>
+          <div className='contact-btn-about'>
+            <a
+              className='mail-a'
+              target='_blank'
+              rel='noreferrer'
+              href='mailto:jasminvilla321@gmail.com? subject=message from portfolio'>
+              <HiOutlineMail className='mail-icon' />
+              Contact
+            </a>
+          </div>
         </div>
       </section>
       <section className='skills-section'>

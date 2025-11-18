@@ -1,5 +1,4 @@
 import '../styles.css';
-import HeroBg from './Images/jasmine_flower_02.jpg';
 // react icons
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
@@ -11,7 +10,7 @@ const Hero = () => {
     <IconContext.Provider value={{ className: 'media-icons' }}>
       <section id='home' className='hero--cnt'>
         <div className='hero-text-cnt '>
-          <div className=' '>
+          <div>
             <h1 className='name'>
               Hi, I'm <span className='jasmin'>Jasmin Villatoro</span>
             </h1>

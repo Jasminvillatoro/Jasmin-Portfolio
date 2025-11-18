@@ -183,14 +183,20 @@ nav {
   margin: 2rem 0 0 0;
 }
 
-.contact-btn-about:hover {
+.mail-a,
+.mail-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  background-color: #9cf5b2;
+}
+
+.mail-a,
+.mail-icon:hover {
   cursor: pointer;
 }
-
-.contact-btn-a {
-  text-decoration: none;
-}
-
 /* Skills */
 
 .skills-section h1 {
