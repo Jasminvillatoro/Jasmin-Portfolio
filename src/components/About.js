@@ -1,4 +1,4 @@
-import about from './Images/myimage.png';
+import about from './Images/2025_linkedin_profile.jpeg';
 import { IconContext } from 'react-icons';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -24,11 +24,18 @@ const About = () => {
         <div className='about--text-cnt'>
           <h1>About Me</h1>
           <p className='about-p'>
-            Hello! My name is Jasmin, I'm a Frontend Web Developer who loves to
-            code beautiful interfaces with HTML, CSS, JavaScript, and Reactjs.
-            I've created multiple UI projects as well as collaborated with other
-            software developers. I'm an open-minded individual who loves
-            learning new technologies.
+            Hey there! Welcome to my website. I’m currently working toward my
+            Bachelor’s in Software Engineering. My love for programming began
+            back in 2022 when I randomly came across this career online—and I’ve
+            been hooked ever since!
+          </p>
+          <p className='about-p'>
+            I graduated from a coding bootcamp and landed a job as a Frontend
+            Developer, where I worked with HTML, CSS, JavaScript, and .NET.
+            Since then, I’ve explored modern tools like React, Next.js, and
+            TypeScript, and even jumped into backend development with Python.
+            I’ve built several projects and had the chance to contribute to an
+            open-source project, which was an awesome experience.
           </p>
         </div>
       </section>
